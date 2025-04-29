@@ -19,7 +19,7 @@ public class WishApp extends HttpServlet{
 		PrintWriter writer = resp.getWriter();
 		writer.println("<h2>Good Morning</h2>");
 		
-		writer.println("<br><br><a href='index.html'>Home</a>");
+		writer.println("<br><br><a href='index.html'>Homee</a>");
 		writer.close();
 		super.doGet(req, resp);
 	}
